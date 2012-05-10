@@ -3,7 +3,6 @@ var colors = require('colors');
 var meetup = require('./lib/meetup');
 var twitter = require('./lib/twitter');
 var Cache = require('./lib/cache');
-var async = require('async');
 
 var pollMinutes = (argv.p) ? argv.p : 60;
 

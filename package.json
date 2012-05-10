@@ -6,7 +6,6 @@
     "request": "*",
     "ntwitter": "*",
     "colors": "*",
-    "async": "*",
     "optimist": "*"
   },
   "devDependencies": {},
