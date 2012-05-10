@@ -1,6 +1,6 @@
 # meetup.com twitter follow bot
 
-This is a simple node.js app that polls your meetup.com group and follows any of your members with a Twitter account from your Twitter account. The app is preconfigured to run on Heroku.
+This is a simple node.js app that polls your meetup.com group and follows any of your members with a Twitter account from your Twitter account. The app contains the files necessary to run this on Heroku as well as locally.
 
 ## Setup
 
