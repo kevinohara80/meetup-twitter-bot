@@ -47,7 +47,6 @@ function run() {
           }
         } else {
           console.log('error'.red + ' ' + err.message); 
-          console.log(err.message);
         }
       });
     } else { 
