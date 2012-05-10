@@ -1,0 +1,17 @@
+{
+  "author": "Kevin O'Hara",
+  "name": "meetup2",
+  "version": "0.0.0",
+  "dependencies": {
+    "request": "*",
+    "ntwitter": "*",
+    "colors": "*",
+    "async": "*",
+    "optimist": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.17"
+  }
+}
