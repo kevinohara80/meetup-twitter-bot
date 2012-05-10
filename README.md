@@ -4,7 +4,7 @@ This is a simple node.js app that polls your meetup.com group and follows any of
 
 ## Setup
 
-1. Clone this repo
+1. Clone this repo and install dependencies with `npm install`
 2. Register your app with Twitter.com
 3. Get a meetup.com API key
 4. Set the environment variables. See the env.sh file for the environment variables that need to be set. You can run this script once edited to set the variables.
