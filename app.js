@@ -23,7 +23,12 @@ function run() {
     if(!err) {
       console.log('retreived ' + resp.length + ' twitter ids from meetup');
       for(var i=0; i<resp.length; i++) {
-        cache.add('meetup', resp[i]);
+        // need to clean the names
+        var raw = resp[i];
+        if(raw.indexOf('\.com\/') !== -1) {
+          raw = raw.split('\.com\/')[1];
+        }
+        cache.add('meetup', raw);
       }
       console.log('contacting twitter.com');
       twit.getFollowedNames(function(err, resp) {
