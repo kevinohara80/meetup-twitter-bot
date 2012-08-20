@@ -28,7 +28,7 @@ function run() {
         if(raw.indexOf('\.com\/') !== -1) {
           raw = raw.split('\.com\/')[1];
         }
-        cache.add('meetup', raw);
+        if(raw) cache.add('meetup', raw);
       }
       console.log('contacting twitter.com');
       twit.getFollowedNames(function(err, resp) {
